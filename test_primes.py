@@ -1,10 +1,12 @@
-from primes import is_prime, get_next_prime
+from primes import Primes
+
+
 
 def test_is_prime():
-    assert is_prime(5) == True
+    assert Primes.is_prime(5) == True
 
 def test_is_not_prime():
-    assert is_prime(4) == False
+    assert Primes.is_prime(4) == False
 
 def test_next_prime():
-    assert get_next_prime(542) == 547
+    assert Primes.get_next_prime(Primes,542) == 547
