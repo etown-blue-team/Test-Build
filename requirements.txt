@@ -23,7 +23,7 @@ more-itertools==6.0.0
 mysql==0.0.2
 mysqlclient==1.4.2.post1
 pluggy==0.8.1
-py==1.7.0
+py==1.10.0
 pycparser==2.19
 pylint==2.2.2
 pytest==4.2.1
